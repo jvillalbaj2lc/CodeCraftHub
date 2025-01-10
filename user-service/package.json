@@ -6,8 +6,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "mocha tests/*.js",
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
